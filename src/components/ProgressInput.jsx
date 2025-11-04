@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import useState from 'react';
 import './ProgressInput.css';
 
 const ProgressInput = ({ onProgressChange, onError }) => {
