@@ -30,6 +30,25 @@ body {
   min-height: 100vh;
 }
 
+@media (max-width: 600px) {
+  body {
+    flex-direction: column;
+    padding: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    place-items: unset;
+  }
+  h1 {
+    font-size: 2em;
+    text-align: center;
+  }
+  button {
+    width: 100%;
+    font-size: 1em;
+    padding: 0.8em 0.5em;
+  }
+}
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
